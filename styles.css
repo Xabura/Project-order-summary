@@ -1,0 +1,133 @@
+.attribution { font-size: 13px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+    width: 380px;
+    border-radius: 17px;
+    box-shadow: 0 10px 6px -6px gray;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}   
+
+.imageOne{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.headTitle{
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+.paragraph{
+    margin-right: 3.6rem;
+    margin-left: 3.6rem;
+    line-height: 1.5rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.firstDiv{
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.imageTwo{
+    margin-right: 1rem;
+}
+
+.parTwo{
+    text-align: left;
+    flex-grow: 1;
+    color: hsl(224, 23%, 55%);
+}
+.annual{
+    color: black;
+}
+
+.linkChange{
+    font-weight: 700;
+    color:hsl(245, 75%, 52%);
+}
+
+.linkOne{
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 6px -6px hsl(224, 23%, 55%);
+    
+}
+.payment{
+    text-decoration: none;
+    color: hsl(225, 100%, 98%);
+    font-weight: 800;
+}
+
+.linkTwo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 375px){
+    body{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 85%;
+
+    }
+    .imageOne{
+        width: 100%;
+    }
+
+    .headTitle{
+        font-size: 22px;
+    }
+
+    .paragraph{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .firstDiv{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .linkOne{
+        font-size: 16px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
